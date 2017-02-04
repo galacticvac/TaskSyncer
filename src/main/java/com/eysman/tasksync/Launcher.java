@@ -1,3 +1,5 @@
+package com.eysman.tasksync;
+
 import com.eysman.tasksync.google.GoogleTaskClient;
 import com.eysman.tasksync.wunderlist.WunderlistClient;
 import com.eysman.tasksync.wunderlist.model.WList;
