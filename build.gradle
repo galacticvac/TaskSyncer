@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'idea'
+
+mainClassName = 'com.eysman.tasksync.Launcher'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.22.0'
+    compile 'com.squareup.retrofit:retrofit:1.5.0'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.3.0-rc1'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.3.0-rc1'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.3.0-rc1'
+    compile 'com.google.api-client:google-api-client:1.22.0'
+    compile 'com.google.apis:google-api-services-tasks:v1-rev46-1.22.0'
+}
